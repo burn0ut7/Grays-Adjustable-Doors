@@ -1,0 +1,27 @@
+GenericEntity {
+ ID "627CE52CCB2692FE"
+ components {
+  SignalsManagerComponent "{655E050163DEE0CD}" {
+  }
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   additionalActions {
+    GRAY_OpenDoorAIAction "{6590D952F54BE240}" {
+    }
+    GRAY_AdjustDoorAction "{6590C4655F85586D}" {
+     ParentContextList {
+      "SCR_DoorUserAction"
+     }
+     UIInfo UIInfo "{6590D95081654005}" {
+      Name "Adjust"
+     }
+     Duration -1
+     PerformPerFrame 1
+     "Sort Priority" 2
+     "Signal name" "adjust"
+     m_fAdjustmentStep 0.1
+     m_bManualAdjustment 1
+    }
+   }
+  }
+ }
+}
