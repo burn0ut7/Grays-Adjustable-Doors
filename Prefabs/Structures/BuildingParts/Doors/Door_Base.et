@@ -18,7 +18,6 @@ GenericEntity {
      PerformPerFrame 1
      "Sort Priority" 2
      "Signal name" "adjust"
-     m_fAdjustmentStep 0.1
      m_bManualAdjustment 1
     }
    }
